@@ -21,8 +21,8 @@ export default function Footer(){
               <h1 className='footer-sub-header'>Contact</h1>
               <h1 className='footer-list mt-4'>14 Airport road, Accra, Ghana</h1>
               <h1 className='footer-list'>info@nkwa.homes</h1>
-              <h1 className='footer-list'>233 908 723 1283</h1>
-              <h1 className='footer-list'>233 908 723 1283</h1>
+              {/* <h1 className='footer-list'>233 908 723 1283</h1>
+              <h1 className='footer-list'>233 908 723 1283</h1> */}
             </div>
             <div className='flex flex-col gap-4'>
               <h1 className='footer-sub-header'>Company</h1>
