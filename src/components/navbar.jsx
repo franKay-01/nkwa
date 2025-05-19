@@ -49,7 +49,7 @@ export default function Navbar() {
                       <Popover.Panel className="absolute z-10">
                         <div className="grid grid-cols-1 menu-bar">
                           <Link
-                            to={"/about"}
+                            to={"/services"}
                             spy={true}
                             smooth={true}
                             className="mb-6"
@@ -154,7 +154,7 @@ export default function Navbar() {
                 <Popover.Panel className="mt-4">
                   <div className="grid grid-cols-1 mobile-menu-bar">
                     <Link
-                      to={"/about"}
+                      to={"/services"}
                       spy={true}
                       smooth={true}
                       className={"mb-6 mobile-dropdown-text"}
