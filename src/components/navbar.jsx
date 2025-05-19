@@ -5,10 +5,7 @@ import {Link} from 'react-router-dom'
 import { Popover } from '@headlessui/react'
 
 export default function Navbar() {
-  const navigation = [
-    { name: 'Home', href: '/', current: false },
-    { name: 'About Us', href: '/my/hustles', current: false },
-  ]
+
   return (
     <Disclosure as="nav" className="bg-white nav-position">
       {({ open }) => (
@@ -115,7 +112,6 @@ export default function Navbar() {
                     <Link to={'/landbank'} spy={true} smooth={true} className={'navbar-title text-default-blue cursor-pointer px-3 py-2 rounded-md text-lg font-normal'}>
                       Land Bank
                     </Link>
-
                 </div>
               </div>
             </div>
