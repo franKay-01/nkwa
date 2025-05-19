@@ -39,7 +39,7 @@ export default function Navbar() {
                       Home
                     </Link>
                     <Popover className="relative px-3 py-2 rounded-md font-normal text-lg text-default-blue learn-display">
-                      <Popover.Button className="inline-flex items-center whitespace-nowrap gap-1 focus:outline-none">
+                      <Popover.Button className="inline-flex items-center whitespace-nowrap gap-1 focus:outline-none navbar-title">
                         About Us
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none" className="w-5 h-5">
                           <path d="M11 8L8 11L5 8" stroke="#181818" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -55,7 +55,7 @@ export default function Navbar() {
                             className="mb-6"
                           >
                             <h1 className="text-lg text-default-blue cursor-pointer">
-                              Story
+                              Services
                             </h1>
                           </Link>
                           <Link
@@ -64,14 +64,14 @@ export default function Navbar() {
                             smooth={true}
                           >
                             <h1 className="text-lg text-default-blue cursor-pointer">
-                              Team
+                              Teams
                             </h1>
                           </Link>
                         </div>
                       </Popover.Panel>
                     </Popover>
                     <Popover className="relative px-3 py-2 rounded-md font-normal text-lg text-default-blue learn-display">
-                      <Popover.Button className="inline-flex items-center whitespace-nowrap gap-1 focus:outline-none">
+                      <Popover.Button className="inline-flex items-center whitespace-nowrap gap-1 focus:outline-none navbar-title">
                         Properties
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none" className="w-5 h-5">
                           <path d="M11 8L8 11L5 8" stroke="#181818" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -159,7 +159,7 @@ export default function Navbar() {
                       smooth={true}
                       className={"mb-6 mobile-dropdown-text"}
                     >
-                      Story
+                      Services
                     </Link>
                     <Link
                       to={"/soon"}
@@ -167,7 +167,7 @@ export default function Navbar() {
                       smooth={true}
                       className="mb-6 mobile-dropdown-text"
                     >
-                      Team
+                      Teams
                     </Link>
                   </div>
                 </Popover.Panel>
