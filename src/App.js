@@ -8,12 +8,14 @@ const ComingSoonPage = React.lazy(()=> import('./pages/coming'));
 
 function App() {
   return (
-    <Routes>
-      <Route exact path='/' element={<HomePage/>}></Route>
-      <Route exact path='/about' element={<AboutPage/>}></Route>
-      <Route exact path='/landbank' element={<LandbankPage/>}></Route>
-      <Route exact path='/soon' element={<ComingSoonPage/>}></Route>
-    </Routes>
+    <React.Suspense fallback={'...loading'}>
+      <Routes>
+        <Route exact path='/' element={<HomePage/>}></Route>
+        <Route exact path='/about' element={<AboutPage/>}></Route>
+        <Route exact path='/landbank' element={<LandbankPage/>}></Route>
+        <Route exact path='/soon' element={<ComingSoonPage/>}></Route>
+      </Routes>
+    </React.Suspense>
   );
 }
 
