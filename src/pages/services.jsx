@@ -48,7 +48,7 @@ export default function AboutPage(){
             </span>
             <span className="flex items-center gap-4">
               <span className="w-3 h-3 rounded-full bg-yellow-500"></span>
-              <span className='core-value-header'>Integrity</span>
+              <span className='core-value-header'>Innovation</span>
             </span>
             <span className="flex items-center gap-4">
               <span className="w-3 h-3 rounded-full bg-yellow-500"></span>
